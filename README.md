@@ -84,8 +84,6 @@ $crashguard->register();
 The "Copy as Markdown" feature generates perfectly formatted error reports for AI analysis:
 
 ```markdown
-# 🚨 Error Report
-
 ## Error Summary
 - **Message**: Call to undefined method stdClass::someMethod()
 - **Type**: `Error`

@@ -383,9 +383,7 @@ class HtmlRenderer implements RendererInterface
         }
         
         function generateMarkdown(data) {
-            let md = "# 🚨 Error Report\\n\\n";
-            
-            md += "## Error Summary\\n";
+            let md = "## Error Summary\\n";
             md += "- **Message**: " + data.message + "\\n";
             md += "- **Type**: `" + data.class + "`\\n";
             md += "- **File**: `" + data.file + "`\\n";

@@ -11,10 +11,7 @@ class MarkdownRenderer implements RendererInterface
 {
     public function render(array $errorData): string
     {
-        $md = "# 🚨 Error Report\n\n";
-        
-        // Error Summary
-        $md .= "## Error Summary\n\n";
+        $md = "## Error Summary\n\n";
         $md .= "- **Message**: " . $errorData['message'] . "\n";
         $md .= "- **Type**: `" . $errorData['class'] . "`\n";
         $md .= "- **File**: `" . $errorData['file'] . "`\n";
